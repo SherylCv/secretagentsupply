@@ -1,19 +1,26 @@
 body{
   font-size: 18px;
   font-family: Helvetica;
-  background-color: black;
-  opacity: 0.9;
+  background-color: white;
   color: white;
 }
 .page{
   display: flex;
   width: auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .header{
   display: flex;
+  justify-content:  space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: black;
+}
+.insideheader{
+  display: flex;
+  flex-wrap: wrap;
   width: 960px;
-  justify-content:  space-around;;
 }
 .header img{
   height: 1.5rem;
@@ -66,19 +73,42 @@ body{
   height: 2.5rem;
   width: 100%;
 }
+.navinside{
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  height: auto;
+}
 .navigation ul{
   list-style: none;
   display: table;
-  width: 960px;
-  height: auto;
-  margin: 0.75rem 0;
+  width: 100%;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .navigation li{
   display: table-cell;
   font-size: 1rem;
   font-weight: bold;
-  text-align: center;
 }
 .products{
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 960px;
+}
+#pen, #watch, #glasses{
+  position: relative;
+  top: 3rem;
+  border: 4px solid black;
+}
+.products img{
+  height: 9rem;
+  width: auto;
+  margin: 2rem 2rem;
+}
+.products p{
+  background-color: black;
+  width: 100%;
+
 }
