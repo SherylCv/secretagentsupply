@@ -170,3 +170,21 @@ body{
   font-weight: normal;
   text-align: left;
 }
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 4rem;
+  width: 100%;
+  height: auto;
+  background-color: black;
+  width: 100%;
+  height: 5rem;
+}
+.footerinside{
+  display: flex;
+  justify-content: flex-start;
+  width: 960px;
+  height: auto;
+}
