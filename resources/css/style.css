@@ -94,14 +94,12 @@ body{
 .products{
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 960px;
   height: auto;
 }
 .productsinside{
   display: flex;
   justify-content: space-between;
-  max-width: 960px;
-  height: 100%;
 }
 #pen, #watch, #glasses{
   display: flex;
@@ -132,6 +130,43 @@ body{
   background-color: black;
   width: 100%;
   max-height: 100%;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.lochours{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 3rem;
+  width: 960px;
+  height: auto;
+}
+#location, #hours{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 35%;
+  height: auto;
+  margin-top: 3rem;
+}
+.contact h1{
+  background-color:  black;
+  text-align: left;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+  height: auto;
+}
+.contact p{
+  color: black;
+  font-weight: normal;
+  text-align: left;
 }
