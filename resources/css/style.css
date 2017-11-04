@@ -70,19 +70,20 @@ body{
   display: flex;
   justify-content: center;
   background-color: firebrick;
-  height: 2.5rem;
+  height: auto;
   width: 100%;
 }
 .navinside{
   display: flex;
   justify-content: space-between;
   width: 960px;
-  height: auto;
+  height: 2.5rem;
 }
 .navigation ul{
   list-style: none;
   display: table;
   width: 100%;
+  height: auto;
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
@@ -90,6 +91,25 @@ body{
   display: table-cell;
   font-size: 1rem;
   font-weight: bold;
+}
+.navigation2{
+  display: none;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+  width: 960px;
+  height: 2.5rem;
+  visibility: hidden;
+}
+.menu p{
+  visibility: hidden;
+  font-size: 1rem;
+  width: 100%;
+  height: auto;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
 }
 .products{
   display: flex;
@@ -188,4 +208,42 @@ body{
   justify-content: flex-start;
   width: 960px;
   height: auto;
+}
+@media only screen and (max-width: 1024px){
+
+  #pen{
+    min-width: 47%;
+    margin-right: 3%;
+  }
+  #watch{
+    min-width: 47%;
+    margin-left: 3%;
+  }
+  #glasses{
+    visibility: hidden;
+  }
+  .naviinside ul{
+    visibility: hidden;
+  }
+  .navinside{
+    visibility: hidden;
+  }
+  .navigation{
+    display: none;
+  }
+  .navigation2{
+    display: flex;
+    justify-content: center;
+    background-color: firebrick;
+    height: auto;
+    width: 100%;
+  }
+  .menu{
+    visibility: visible;
+    width: inherit;
+  }
+  .menu p{
+    width: auto;
+    visibility: visible;
+  }
 }
