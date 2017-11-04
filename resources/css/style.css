@@ -247,3 +247,72 @@ body{
     visibility: visible;
   }
 }
+@media only screen and (max-width: 470px){
+  .banner{
+    height: 15rem;
+  }
+  .blackbox{
+    margin-top: 10rem;
+  }
+  .blackbox h1{
+    font-size: 0.77rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+  .blackbox p{
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  #pen{
+    min-width: 90%;
+    margin: 2rem 5%;
+  }
+  #watch, #glasses{
+    visibility: hidden;
+  }
+  .naviinside ul{
+    visibility: hidden;
+  }
+  .navinside{
+    visibility: hidden;
+  }
+  .navigation{
+    display: none;
+  }
+  .navigation2{
+    display: flex;
+    justify-content: center;
+    background-color: firebrick;
+    height: auto;
+    width: 100%;
+  }
+  .menu{
+    visibility: visible;
+    width: inherit;
+  }
+  .menu p{
+    width: auto;
+    visibility: visible;
+  }
+  .contact{
+    justify-content: center;
+  }
+  .lochours{
+    flex-direction: column;
+    align-content: center;
+    width: inherit;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #location, #hours{
+    width: 90%;
+  }
+  #hours p{
+    margin-top: 0.5rem;
+  }
+  .footerinside{
+    justify-content: center;
+  }
+}
